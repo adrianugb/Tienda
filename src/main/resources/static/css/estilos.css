@@ -6,7 +6,7 @@ body{
     margin: 0;
 }
 
-header {
+.encabezado {
     position: fixed;
     background-color: #9999ff;
     color: white;
@@ -15,6 +15,36 @@ header {
     width: 100%;
     height: 110px;
     padding: 10px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 100px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;  
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    padding: 0 10px;
+    line-height: 100px;
 }
 
 aside {
@@ -49,7 +79,7 @@ footer {
     height: 20px;
 }
 
-a{
+.nav-menu-link{
     text-decoration: none;
     color:white;
     font-size: 20px;
@@ -59,7 +89,7 @@ a{
 
 /*seudoclase
 */
-a:hover {
+.nav-menu-link:hover {
     background-color:blue;
 }
 
